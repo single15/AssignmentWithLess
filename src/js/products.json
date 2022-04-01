@@ -1,0 +1,26 @@
+[
+    {
+        "src": "mango.png",
+        "title": "Mango for Juice",
+        "subtitle": "Nam libero tempore",
+        "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non"
+    },
+    {
+        "src": "apple.png",
+        "title": "Apple for Juice",
+        "subtitle": "Nam libero tempore",
+        "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non"
+    },
+    {
+        "src": "orange.png",
+        "title": "Orange for Juice",
+        "subtitle": "Nam libero tempore",
+        "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non"
+    },
+    {
+        "src": "pineapple.png",
+        "title": "Pineapple for Juice",
+        "subtitle": "Nam libero tempore",
+        "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non"
+    }
+]

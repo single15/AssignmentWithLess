@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content-type="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This website contains all about your favroite fruit.">
+        <meta name="keywords" content="fruits, fruit, apple, pineapple, watermelon, juice, taste">
+        <meta name="author" content="Swapnil Ingle">
+
+        <title>Taste of Fruits</title>
+
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./js/index.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="./js/index.js"></script>
+
+
+    </head>
+    <body>
+        <div class="container">
+            <header class="header-section">
+                <div class="header">
+                    <div id="home" class="logo">
+                        <img src="./images/logo.png" alt="taste of fruit">
+                    </div>
+                    <nav id="menus" class="menus">
+                        <ul id="menu-list">
+                            <li class="active">
+                                <a href="#home">HOME</a>
+                            </li>
+                            <li>
+                                <a href="#about">ABOUT</a>
+                            </li>
+                            <li>
+                                <a href="#ourproduct">OUT PRODUCT</a>
+                            </li>
+                            <li>
+                                <a href="#gallery">GALLERY</a>
+                            </li>
+                            <li>
+                                <a href="#contactus">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="hamburger">
+                        <a href="javascript:void(0);" class="icon" onclick="onClickHamburger()">
+                            <i class="fa fa-bars"></i>
+                        </a>                        
+                        <div id="mobile-menu"></div>
+                    </div>                    
+                </div>
+                <section class="banner">
+                    <div class="container">
+                        <div class="content-section">
+                            <span>Now Started</span>
+                            <div>
+                                <h1>
+                                    Fruit And<br>
+                                    Juice
+                                </h1>
+                            </div>
+                            <a href="#about" class="read-more-content">
+                                <button>About Us</button>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </header>
+            <main>
+                <div id="about">
+                    <div class="section-container">
+                        <div class="about-section">
+                            <div class="section-header center">
+                                <div>
+                                    About Us
+                                </div>
+                            </div>
+                            <div class="section-description align-center">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptu
+                            </div>
+                        </div>
+                        <div class="about-img center">
+                            <img src="./images/about.png" alt="About Us">                        
+                        </div>                    
+                        <a href="#subscriber-newsletter" class="read-more-content center">
+                            <button>Read More</button>
+                        </a>
+                    </div>                                          
+                </div>
+                <div id="ourproduct">
+                    <div class="section-container">
+                        <div class="products-section">
+                            <div class="section-header">
+                                <div>
+                                    Our Products
+                                </div>
+                            </div>
+                            <div class="section-description">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptu
+                            </div>
+                        </div>                       
+                        <div id="product-list" class="product-list">
+                        </div>                        
+                    </div>                   
+                </div>
+                <div id="using">
+                    <div class="section-container">
+                        <div class="using-section">
+                            <div class="using-text-box">
+                                <div class="text-box">
+                                    <div class="section-header">
+                                        <div>Lorem Ipsum Using</div>
+                                    </div>
+                                    <div class="section-description">
+                                        Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise
+                                    </div>
+                                    <div class="divider"></div>
+                                    <a href="#subscriber-newsletter" class="read-more-content">
+                                        <button>Read More</button>
+                                    </a>
+                                </div>                                
+                            </div>
+                            <figure>
+                                <img src="./images/basket.png" alt="Fruits Basket">
+                            </figure>
+                        </div>
+                    </div>  
+                </div>
+                <div id="gallery">
+                    <div class="section-container">
+                        <div class="gallery-section">
+                            <div class="section-header center">
+                                <div>
+                                    Gallery
+                                </div>
+                            </div>
+                            <div class="section-description align-center">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            </div>
+                            <div id="grid-container" class="grid-container"></div>
+                        </div>                                             
+                    </div>  
+                </div>
+                <div id="contactus">
+                    <div class="section-container">
+                        <div class="contact-us-section">
+                            <div class="section-header">
+                                <div>Contact Us</div>
+                            </div>
+                            <div class="location-section">
+                                <div>
+                                <iframe  
+                                    width="600"
+                                    height="450"
+                                    style="border:0"
+                                    loading="lazy"
+                                    allowfullscreen
+                                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=zensar+technologies+kharadi+south+main+road+thite+nagar+kharadi+pune+maharashtra+india" 
+                                    frameborder="0">
+                                </iframe>
+                                </div>
+                                <form class="user-form">
+                                    <div>
+                                        <input id="name" type="text" placeholder="Name">
+                                    </div>
+                                    <div>
+                                        <input id="phone" type="tel" placeholder="Phone" pattern="[0-9]{10}">
+                                    </div>
+                                    <div>
+                                        <input id="email" type="email" placeholder="Email">
+                                    </div>
+                                    <div>
+                                        <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+                                    </div>
+
+                                    <div class="send-feedback">
+                                        <button id="send-details">
+                                            SEND
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+            </main>
+            <footer>
+                <div id="subscriber-newsletter" class="footer-section">
+                    <div class="section-container">
+                        <div class="section-header center">
+                            <div>Subscribed Our Newsletter</div>
+                        </div>
+                        <form class="subscriber-form center" onsubmit="onSubmit()">
+                            <input id="user-email" type="email" class="user-email" placeholder="Enter your email">
+                            <button class="submit">SUBSCRIBE</button>
+                        </form>
+                        <div class="divider"></div>
+                        <div class="footer-sub-section">
+                            <div class="sub-section">
+                                <h2>MENU LINKS</h2>
+                                <ul>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#about">About</a> </li>
+                                    <li><a href="#ourproduct">Our Product</a> </li>
+                                    <li><a href="#gallery">Gallery</a> </li>
+                                    <li><a href="#contactus">Contact Us</a> </li>
+                                </ul>
+                            </div>
+                            <div class="sub-section">
+                                <h2>TOP FOOD</h2>
+                                <ul>
+                                    <li>There are many variations of</li>
+                                    <li>passages of Lorem Ipsum</li>
+                                    <li>available, but the majority</li>
+                                    <li>have suffered alteration in</li>
+                                    <li>some form, by injected</li>
+                                </ul>
+                            </div>
+                            <div class="sub-section">
+                                <h2>CONTACT</h2>
+                                <ul>
+                                    <li>
+                                        📍&nbsp;&nbsp;Location
+                                    </li>
+                                    <li>
+                                        📧&nbsp;&nbsp;demo@gmail.com
+                                    </li>
+                                    <li>
+                                        ☎️&nbsp;&nbsp;Call: +01 1234567890
+                                    </li>
+                                </ul>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright-section center">
+                    ©2022 All Rights Reserved. Design by Swapnil Ingle
+                </div>
+            </footer>
+
+            <a id="back-to-top" href="#home" class="back-to-top">
+                <button>&uarr;&nbsp;&nbsp;Back to top</button>
+            </a>
+        </div>
+    </body>
+</html>
